@@ -1,0 +1,39 @@
+h1. Clickinit: Click and init(exec) something for CakePHP
+
+for Selenium IDE...
+
+h2. Feature
+
+* Click tab for init something.
+
+h2. Usage 
+
+First, put `clickinit' directory on app/plugins in your CakePHP application.
+Second, add the following code in app_controller.php.
+
+<pre>
+<?php
+class AppController extends Controller {
+    var $components = array('Clickinit.Init');
+}
+?>
+</pre>
+
+Next, put PHP script on app/vendors/shells in your CakePHP application.
+Head of PHP script's file name should be number.
+(ex. 00-initdb.php, 01-clearcache.php)
+
+And click icon.
+
+h2. Requirement
+
+* jQuery
+
+
+h2. Author
+
+Kenichirou Oyama <k1lowxb@gmail.com>
+
+h2. License
+
+MIT License
