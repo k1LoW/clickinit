@@ -4,13 +4,12 @@ class ClickinitController extends ClickinitAppController {
 
     /**
      * init
-     * description
      *
      * @return
      */
     function init(){
-        if (Configure::read('debug') < 1) {
-            return;
+        if (Configure::read('debug') < 2) {
+            return 'Init NG';
         }
         Configure::write('debug', 0);
         $this->autoRender = false;
