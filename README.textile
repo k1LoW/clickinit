@@ -25,7 +25,7 @@ Head of PHP script's file name should be number.
 
 And click icon.
 
-!http://github.com/k1LoW/clickinit/raw/master/clickinit.png!
+!/k1LoW/clickinit/raw/master/clickinit.png!
 
 h2. Requirement
 
